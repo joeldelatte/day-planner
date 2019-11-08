@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Day Planner</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <!-- header with title and subtitle -->
+    <div class="jumbotron jumbotron-fluid header">
+        <div class="container">
+            <h1 class="display-3" id="header-date"></h1>
+            <p class="lead" id="header-time"></p>
+            <hr class="my-2">
+        </div>
+    </div>
+    <!-- hour 1 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">9:00 AM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-1"></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary save-button1" type="button" id="save-button1">Save</button>
+        </div>
+    </div>
+    <!-- hour 2 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">10:00 AM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-2"></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary save-button1" type="button" id="save-button2">Save</button>
+        </div>
+    </div> 
+    <!-- hour 3 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">11:00 AM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-3"></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary save-button1" type="button" id="save-button3">Save</button>
+        </div>
+    </div> 
+    <!-- hour 4 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">12:00 PM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-4"></textarea>
+        <div class="input-group-append">
+                <button class="btn btn-outline-secondary save-button1" type="button" id="save-button4">Save</button>
+            </div>
+    </div> 
+    <!-- hour 5 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">1:00 PM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-5"></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary save-button1" type="button" id="save-button5">Save</button>
+        </div>
+    </div> 
+    <!-- hour 6 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">2:00 PM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-6"></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary save-button1" type="button" id="save-button6">Save</button>
+        </div>
+    </div> 
+    <!-- hour 7 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">3:00 PM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-7"></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary save-button1" type="button" id="save-button7">Save</button>
+        </div>
+    </div> 
+    <!-- hour 8 -->
+    <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text hour-label" id="inputGroup-sizing-lg">4:00 PM</span>
+        </div>
+        <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-8"></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary save-button1" type="button" id="save-button8">Save</button>
+        </div>
+    </div> 
+    <!-- hour 9 -->
+    <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text hour-label" id="inputGroup-sizing-lg">5:00 PM</span>
+            </div>
+            <textarea type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="input-9"></textarea>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="save-button9">Save</button>
+            </div>
+        </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      
+    </footer>
+    <!-- Footer -->
+    
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="lib/moment/moment.min.js"></script>
+    <script src="script.js"></script> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
