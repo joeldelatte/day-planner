@@ -43,10 +43,6 @@ function loadSaved() {
     }
 }
 
-var timeStamps = [];
-// for (i = 0; i > )
-if (moment().format("H") > ) {
-$("<textarea>").attr("class", "past");
-}
+
 
 loadSaved()
